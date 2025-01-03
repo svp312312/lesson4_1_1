@@ -7,6 +7,6 @@ public class Moto implements Machine{
     }
     @Override
     public void info(){
-        System.out.println("");
+        System.out.println("no information");
     };
 }

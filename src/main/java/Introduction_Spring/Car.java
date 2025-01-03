@@ -21,23 +21,12 @@ public class Car implements Machine{
         car[3] = new WheelEngine();
         car[4] = new hinge();
         car[5]  = new differential();
-        System.out.println("\nMachine information:");
+        System.out.println("\nCar information:");
         System.out.println("====================\n");
         for(int i = 0; i < n; i++){
             System.out.print(car[i].toString() + "\n");
 
         }
-
-//        Class<?>[] subclasses = {AccumulatorSuspension.class,  starter.class,sparkplug.class, WheelEngine.class};
-//        System.out.println("Cостав car:");
-//        for (Class<?> subclass : subclasses) {
-//            if (Car.class.isAssignableFrom(subclass) && subclass != Car.class) {
-//                System.out.println(" - " + subclass.getSimpleName());
-//                System.out.println(subclass.toString());
-//
-//
-//            }
-//        }
     }
 }
 
